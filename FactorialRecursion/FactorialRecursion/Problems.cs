@@ -8,7 +8,7 @@ namespace FactorialRecursion
     {
         public int Factorial(int n)
         {
-            if (n == 0 || n == 1)
+            if (n <= 1)
             {
                 return 1;
             }
